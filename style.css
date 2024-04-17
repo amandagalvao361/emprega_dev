@@ -73,11 +73,14 @@ main {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
-}
-
-main {
     font-family: var(--font-padrão);
 }
+
+main h2 {
+    font-family: var(--font-padrão);
+    color: var(--cor2);
+}
+
 
 
 
