@@ -16,6 +16,15 @@
 
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p { 
+    margin: 15px 0px;
+    text-align: justify;
+}
 header > h1 {
     font-family: var(--font-destaque);
     font-size: 4em;
@@ -33,6 +42,7 @@ header > p {
         max-width: 500px;
         margin: auto;
         padding-bottom: 10px;
+        text-align: center;
 
 }
 
@@ -70,14 +80,74 @@ main {
     max-width: 1000px;
     margin: auto;
     box-shadow: 0px 0px 10px black; 
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     padding: 20px;
-}
-
-main {
     font-family: var(--font-padrão);
 }
 
+main h2 {
+    font-family: var(--font-padrão);
+    color: var(--cor5);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em
+}
+
+main ul {
+    padding: 0px 35px 0px 35px;
+}
+main li {
+    padding: 0px 35px 0px 35px;
+}
+
+article h1 {
+    font-family: var(--font-padrão);
+    color: var(--cor5);
+    padding: 10px;
+    text-align: center;
+
+}
+article h2 {
+    font-family: var(--font-padrão);
+    color: var(--cor5);
+    padding: 10px;
+  }
+
+article {
+    background-color: var(--cor6);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px black; 
+    padding: 20px;
+    font-family: var(--font-padrão);
+}
+
+article p {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        line-height: 1.5em
+    }
+
+article a {
+    color: var(--cor5);
+}
+
+article a:hover {
+    color: var(--cor4);
+}
+
+footer {
+    font-family: var(--font-padrão);
+    color: var(--cor6);
+    background-color: var(--cor2);
+    text-align: center;
+    text-decoration: nome;
+    font-size: 1em;
+}
 
 
