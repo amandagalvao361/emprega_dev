@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=], initial-scale=1.0">
+        <title>Engenheiro de Segurança da Informação</title>
+        <link rel="stylesheet" href="pesquisaDeUso.css">
+    </head>
+
+<body>
+     
+    <div>
+        <h1>Pesquisa de Acesso</h1>
+        <p>Preencha os dados:</p>
+        <br>
+
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div>
+                <label><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome"required>
+            </div>
+        </fieldset>
+
+        <div>
+            <label><strong>Idade</strong></label>
+            <input type="number" name="idade" id="idade" required>
+        </div>
+        
+        <div>
+            <label><strong>Qual seu grau de ensino?</strong></label>
+            <select id="formacao" required>
+                <option selected disabled value="">Selecione</option>
+                <option>Ensino Fundamental</option>
+                <option>Ensino Médio</option>
+                <option>Ensino Superior</option>
+                <option>Pós-Graduação</option>
+                <option>Mestrado</option>
+                <option>Doutorado</option>
+            </select>
+        </div>
+
+            <div>
+                <label><strong>Você está empregado em TI?</strong></label>
+                <label>
+                    <input type="radio" name="empregado" value="empregado">Sim
+                </label>
+                <label>
+                    <input type="radio" name="empregado" value="desempregado">Não
+                </label>
+            </div>
+
+            <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
