@@ -23,7 +23,7 @@
         <a href="formulario.php">Pesquisa</a>
     </nav>
     <main>
-    <h1>Pesquisa enviada, obrigado por participar! Por favor aguarde...</h1>
+    <h3>Pesquisa enviada, obrigado por participar! por favor aguarde...</h3>
     </main>
     <footer>
         Site desenvolvido para UPX 2
