@@ -1,6 +1,5 @@
 <?php
     header("refresh: 3;sobre.html");
-    print_r('Pesquisa concluida, obrigado!')
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +12,7 @@
 </head>
 <body>
 <header>
-        <h1>Mentoria</h1>
+        <h1>Emprega // DEV</h1>
     </header>
     <nav>
         <a href="sobre.html">Sobre o Emprega//DEV</a>
