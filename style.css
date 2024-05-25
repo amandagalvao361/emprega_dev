@@ -64,11 +64,11 @@ nav {
     }
 
 nav > a {
-    color: var(--cor6);
+    color: var(--cor7);
     text-decoration: none;
     padding: 8px;
     border-radius: 5px;
-    font-family: var(--font-padrão);
+    font-family: var(--font-destaque);
     width: auto;
 }
 
