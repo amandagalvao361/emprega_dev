@@ -10,6 +10,7 @@
     --cor4: #37F076;
     --cor5: #3778F0;
     --cor6: #ffffff;
+    --cor7:#00222E; 
 
     --font-padrão: "Roboto";
     --font-destaque: "Share Tech Mono";
@@ -38,18 +39,16 @@ header > h1 {
     text-shadow: 2px 2px 2px black;
     font-weight: normal;
     color: var(--cor6);
-  
-}
+    }
 
 header > p {
-        color: var(--cor6) ;
-        font-family: var(--font-padrão);
+        color: var(--cor7);
+        font-family: var(--font-destaque);
         max-width: 500px;
         margin: auto;
-        padding-bottom: 10px;
         text-align: center;
-
-}
+        padding-top: 0%;
+   }
 
 header {
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor2));
