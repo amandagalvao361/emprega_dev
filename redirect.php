@@ -1,5 +1,5 @@
 <?php
-    header("refresh: 3;sobre.html");
+    header("refresh: 3;index.html");
 ?>
 
 <!DOCTYPE html>
