@@ -90,7 +90,9 @@ main {
 
 main h2 {
     font-family: var(--font-padrão);
-    color: var(--cor5);
+    color: var(--cor7);
+    text-align: justify;
+    font-size: 140%;
 }
 
 main p {
@@ -105,6 +107,12 @@ main ul {
 }
 main li {
     padding: 0px 35px 0px 35px;
+}
+
+main > img {
+display: flex;
+width: 50%;
+justify-content: center;
 }
 
 article h1 {
@@ -147,7 +155,7 @@ article a:hover {
 
 footer {
     font-family: var(--font-padrão);
-    color: var(--cor6);
+    color: var(--cor7);
     background-color: var(--cor2);
     text-align: center;
     text-decoration: nome;
