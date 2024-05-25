@@ -21,6 +21,11 @@
     padding: 0px;
 }
 
+header > img {
+    padding: 0px;
+    margin: -70px;
+}
+
 p { 
     margin: 15px 0px;
     text-align: justify;
