@@ -31,15 +31,21 @@ p {
     margin: 15px 0px;
     text-align: justify;
 }
-header > h1 {
-    font-family: var(--font-destaque);
-    font-size: 4em;
-    padding-top: 40px;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 2px black;
-    font-weight: normal;
-    color: var(--cor6);
-    }
+header > div {
+font-size: 2em;
+margin: 0;
+font-family: var(--font-destaque);
+color: var(--cor7);
+}
+
+     header > a {
+        margin-right: 80px;
+     }
+
+     header > img { 
+        max-width: 100px;
+        height: auto;
+     }
 
 header > p {
         color: var(--cor7);
@@ -48,13 +54,15 @@ header > p {
         margin: auto;
         text-align: center;
         padding-top: 0%;
-   }
+        }
 
 header {
+    display: flex;
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor2));
     min-height: 150px;
-    padding-bottom: 10px;
     text-align: center;
+    align-items: center;
+    margin: -35px;
 }
 
 nav {
