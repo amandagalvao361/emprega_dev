@@ -62,19 +62,19 @@ header {
     min-height: 150px;
     text-align: center;
     align-items: center;
-    margin: -35px;
+    margin: -75px;
 }
 
 nav {
     background-color: var(--cor5);
-    padding: 10px;
+    padding: 28px;
     
     }
 
 nav > a {
     color: var(--cor7);
     text-decoration: none;
-    padding: 8px;
+    padding:8px;
     border-radius: 5px;
     font-family: var(--font-destaque);
     width: auto;
@@ -125,14 +125,14 @@ justify-content: center;
 
 article h1 {
     font-family: var(--font-padrão);
-    color: var(--cor5);
+    color: var(--cor7);
     padding: 10px;
     text-align: center;
 
 }
 article h2 {
     font-family: var(--font-padrão);
-    color: var(--cor5);
+    color: var(--cor7);
     padding: 10px;
   }
 
@@ -154,7 +154,7 @@ article p {
     }
 
 article a {
-    color: var(--cor5);
+    color: var(--cor7);
 }
 
 article a:hover {
