@@ -185,7 +185,7 @@ footer {
 fieldset{
     border: 1px solid rgba(30, 143, 255, 0);
     font-family: var(--font-padrão);
-    font-size: 18px;
+    font-size: 16px;
 }
 legend{
     border: none;
@@ -201,15 +201,15 @@ legend{
     
 }
 .inputUser{
-    font-family: var(--font-padrão);
     background: none;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
-    color: white;
+    color: black;
     width: 96.5%;
-    letter-spacing: 2px;
-}
+    font-family: var(--font-padrão);
+    font-size: 18px;
+    }
 .labelInput{
     position: absolute;
     top: 0px;
@@ -219,9 +219,10 @@ legend{
 }
 .inputUser:focus ~ .labelInput,
 .inputUser:valid ~ .labelInput{
-    top: -20px;
+    top: -12px;
     font-size: 12px;
     color: dodgerblue;
+    font-family: var(--font-padrão);
 }
 
 #submit{

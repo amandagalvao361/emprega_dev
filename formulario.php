@@ -76,28 +76,28 @@
                         <label>Você já atua na área de TI?</label>
                     <br>
                     <label>
-                        <input type="radio" name="empregado" value="empregado">Sim
+                        <input type="radio" name="empregado" value="Atua em TI">Sim
                     </label>
                     <label>
-                        <input type="radio" name="empregado" value="desempregado">Não
+                        <input type="radio" name="empregado" value="Não atua em TI">Não
                     </label>
                     <br><br>
                         <label>Como você avalia nosso conteúdo?</label>
                     <br>
                     <label>
-                        <input type="radio" name="avaliacao" value="1"> Péssimo
+                        <input type="radio" name="avaliacao" value="Péssimo"> Péssimo
                     </label>
                     <label>
-                        <input type="radio" name="avaliacao" value="2"> Ruim
+                        <input type="radio" name="avaliacao" value="Ruim"> Ruim
                     </label>
                     <label>
-                        <input type="radio" name="avaliacao" value="3"> Mediano
+                        <input type="radio" name="avaliacao" value="Mediano"> Mediano
                     </label>
                     <label>
-                        <input type="radio" name="avaliacao" value="4"> Bom
+                        <input type="radio" name="avaliacao" value="Bom"> Bom
                     </label>
                     <label>
-                        <input type="radio" name="avaliacao" value="5"> Excelente
+                        <input type="radio" name="avaliacao" value="Excelente"> Excelente
                     </label>
             </div><br>
             <input type="submit" name="submit" id="submit">

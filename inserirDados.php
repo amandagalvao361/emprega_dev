@@ -7,9 +7,8 @@ $dbname = "db-empregadev"; // nome do banco de dados
 
 // Dados a serem inseridos
 $nome = "";
-$sobrenome = "";
 $idade = "";
-$formacao = "";
+$genero = "";
 $empregado = "";
 $avaliacao = "";
 
@@ -22,7 +21,7 @@ if ($conn->connect_error) {
 }
 
 // Preparar e executar a consulta SQL para inserção de dados
-$sql = "INSERT INTO pesquisa (nome, sobrenome, idade, formacao, empregado, avaliacao) VALUES ('$nome', '$sobrenome', '$idade', '$formacao', '$empregado','$avaliacao')";
+$sql = "INSERT INTO pesquisa (nome, idade, genero, empregado, avaliacao) VALUES ('$nome','$idade','$genero','$empregado','$avaliacao')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Novo registro inserido com sucesso";
