@@ -34,14 +34,17 @@
 </head>
 <body>
     <header>
-            <h1>Pesquisa de Acesso</h1>
+    <a href="index.html"><img src="https://i.imgur.com/ofexIZt.png" alt="logo"></a>
+        <div>
+            <h1>EMPREGA //DEV</h1>
+            <p>É tech pra você aproveitar e decolar</p>
     </header>
-    <nav>
-        <a href="sobre.html">Sobre o Emprega//DEV</a>
-        <a href="trilhas.html">Trilhas</a>
-        <a href="dicas.html">Dicas</a>
-        <a href="mentoria.html">Mentorias</a>
-        <a href="formulario.php">Pesquisa</a>
+        <nav>
+        <a href="sobre.html"><strong>Sobre o Emprega//DEV</strong></a>
+        <a href="trilhas.html"><strong>Trilhas</strong></a>
+        <a href="dicas.html"><strong>Dicas</strong></a>
+        <a href="mentoria.html"><strong>Mentorias</strong></a>
+        <a href="formulario.php"><strong>Pesquisa</strong></a>
     </nav>
     <main>
         <div class="box">
@@ -66,7 +69,7 @@
                         <label for="feminino">Feminino</label>
                     <br>
                         <input type="radio" id="outro" name="genero" value="outro" required>
-                        <label for="outro">Outros</label>
+                        <label for="outro">Outro</label>
                     <br><br>
                     </div>
                     <div>
@@ -82,25 +85,25 @@
                         <label>Como você avalia nosso conteúdo?</label>
                     <br>
                     <label>
-                        <input type="radio" name="avaliacao" value="1"> 1 - Muito Ruim
+                        <input type="radio" name="avaliacao" value="1"> Péssimo
                     </label>
                     <label>
-                        <input type="radio" name="avaliacao" value="2"> 2 - Ruim
+                        <input type="radio" name="avaliacao" value="2"> Ruim
                     </label>
                     <label>
-                        <input type="radio" name="avaliacao" value="3"> 3 - Mediano
+                        <input type="radio" name="avaliacao" value="3"> Mediano
                     </label>
                     <label>
-                        <input type="radio" name="avaliacao" value="4"> 4 - Bom
+                        <input type="radio" name="avaliacao" value="4"> Bom
                     </label>
                     <label>
-                        <input type="radio" name="avaliacao" value="5"> 5 - Muito Bom
+                        <input type="radio" name="avaliacao" value="5"> Excelente
                     </label>
-            </div>
+            </div><br>
+            <input type="submit" name="submit" id="submit">
         </div>
                     <br>
-                <input type="submit" name="submit" id="submit">
-            </fieldset>
+                </fieldset>
         </form>
     </div>
 </main>
